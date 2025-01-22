@@ -16,7 +16,7 @@ def build_exe():
     args = [
         'launch_gui.py',  # 入口脚本
         '--name=LaTeX-OCR',  # 生成的exe名称
-        '--onedir',  # 打包成单个文件
+        '--onefile',  # 打包成单个文件
         '--noconsole',  # 不显示控制台窗口
         '--clean',
         # 添加数据文件
